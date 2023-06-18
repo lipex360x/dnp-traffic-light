@@ -1,0 +1,15 @@
+.component {
+  @apply w-16 h-16 rounded-full bg-slate-700;
+
+  &.red {
+    @apply bg-red-500;
+  }
+
+  &.orange {
+    @apply bg-orange-500;
+  }
+
+  &.green {
+    @apply bg-green-500;
+  }
+}
